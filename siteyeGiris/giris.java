@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class giris {
     public static void main(String[] args) {
+        /*
+         Basit bir siteye giriş uygulaması. Kullanıcı adı doğru şifre yanlışsa
+         şifreyi değiştirmeli bir uygulama yapmam istendi.
+         */
         String userName,password,newPassword;
         Scanner input=new Scanner(System.in);
 
